@@ -1,0 +1,53 @@
+@import "reset.css";
+
+body {
+  overflow-x: hidden;
+}
+
+.match1 {
+  position: absolute;
+width: 801px;
+height: 820px;
+left: 319px;
+top: 40px;
+}
+
+.match2 {
+  position: absolute;
+  width: 177px;
+  height: 198px;
+  left: 943px;
+  top: 40px;
+}
+
+.match3 {
+  position: absolute;
+width: 177px;
+height: 198px;
+left: 631px;
+top: 40px;
+}
+
+.match4 {
+  position: absolute;
+width: 178px;
+height: 199px;
+left: 318px;
+top: 40px;
+}
+
+.match5 {
+  position: absolute;
+  width: 1425px;
+  height: 820px;
+  left: 7px;
+  top: 40px;
+}
+
+.match6 {
+  position: absolute;
+  width: 177px;
+  height: 288px;
+  left: 1255px;
+  top: 394px;
+}

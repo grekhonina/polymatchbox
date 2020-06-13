@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+    <title>polyposter</title>
+  </head>
+  <body>
+      <img src="images/polymatchbox.png"class="match1">
+      <img src="images/polymatchbox1.png"class="match2">
+      <img src="images/polymatchbox2.png"class="match3">
+      <img src="images/polymatchbox3.png"class="match4">
+      <img src="images/polymatchbox4.png"class="match5">
+      <img src="images/polymatchbox5.png"class="match6">
+
+      <script>
+
+        var startPos = 0;
+        var startDate = Date.now();
+
+        var anim = setInterval(function(){
+
+            var timeDuration = Date.now() - startDate;
+
+            if(timeDuration > 2000) {
+                clearInterval(anim);
+                return;
+            }
+
+            startPos +=5;
+
+            document.getElementsByClassName('match2').style.left = timeDuration/5 + "px";
+
+        }, 30);
+
+      </script>
+
+  </body>
+</html>
